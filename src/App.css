@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 990px;
+  margin: 15px auto;
+}
+
+input[type="text"],
+select {
+  display: inline-block;
+  height: 30px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #bbb;
+  margin: 2px;
+}
+
+button {
+  display: inline-block;
+  height: 30px;
+  padding: 5px 15px;
+  background: #fff;
+  border-radius: 3px;
+  border: 1px solid rgb(80, 107, 72);
+  background: rgb(139, 240, 108);
+  color: rgb(80, 107, 72);
+  cursor: pointer;
+}
+
+.search_bar {
+  display: inline-block;
+  position: relative;
+}
+
+.dropdown {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  width: 100%;
+  min-width: 250px;
+  background: rgb(205, 247, 209);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  padding: 15px 0;
+}
+
+.dropdown li {
+  list-style: none;
+  margin-top: 5px;
+  border-bottom: 1px dashed #333;
+  padding: 15px;
+  cursor: pointer;
+}
+
+.dropdown li:hover {
+  background: #eee;
+}
+.dropdown li:last-child {
+  border-bottom: none;
+}
+
+.dropdown li h2 {
+  font-size: 16px;
+}
+.dropdown li h2 small {
+  font-size: 14px;
+  font-style: italic;
+  color: #bbb;
+}
